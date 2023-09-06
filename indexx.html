@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Website dengan Background Image</title>
+    <style>
+        /* Gaya untuk semua ukuran layar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            /* Menghilangkan scrollbar horizontal pada desktop */
+        }
+
+        .mobile-screen {
+            width: 100%;
+            max-width: 768px;
+            /* Lebar maksimum untuk layar HP */
+            margin: 0 auto;
+            background-image: url('./img/344.webp');
+            /* Mengatur gambar latar belakang */
+            background-size: 548px 900px;
+            /* Mengatur ukuran gambar latar belakang */
+            background-repeat: no-repeat;
+            /* Menghindari pengulangan gambar latar belakang */
+            background-position: center;
+            /* Menyusun gambar latar belakang di tengah elemen */
+            color: #fff;
+            /* Warna teks untuk tampilan desktop */
+            padding: 20px;
+            /* Efek bayangan pada desktop */
+        }
+
+
+        /* Gaya khusus untuk layar HP dengan lebar maksimum 768px */
+        @media screen and (max-width: 768px) {
+            .mobile-screen {
+                background-image: url('./img/344.webp');
+                /* Menghilangkan gambar latar belakang pada HP */
+                background-color: #fff;
+                /* Warna latar belakang untuk tampilan HP */
+                box-shadow: none;
+                /* Menghilangkan efek bayangan pada HP */
+                color: #000;
+                /* Warna teks untuk tampilan HP */
+                border: 1px solid #ccc;
+                background-size: 548px 900px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mobile-screen">
+        <header>
+            <h1>Selamat Datang di Website dengan Background Image</h1>
+        </header>
+        <main>
+            <p>Ini adalah konten utama dari website kami.</p>
+        </main>
+        <footer>
+            <p>Hak Cipta &copy; 2023 Website dengan Background Image.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
