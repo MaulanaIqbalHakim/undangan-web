@@ -7,10 +7,11 @@
 :root {
     --primary-color: #6b4102;
     --secondary-color: #663d00;
-    --white-color : rgb(255, 255, 255);
-    --dark-color : #0f0f0f;
-    --grey-color : #727272;
+    --white-color: rgb(255, 255, 255);
+    --dark-color: #0f0f0f;
+    --grey-color: #727272;
 }
+
 /*  FONTS */
 @font-face {
     font-family: 'latin';
@@ -26,7 +27,7 @@
 
 .covermodal {
     background-image: url(./img/bg-modal.jpg);
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -37,6 +38,7 @@
     color: var(--primary-color);
     font-size: 100px;
 }
+
 .contentmodal h6 {
     font-family: standart;
     color: var(--primary-color);
@@ -49,19 +51,19 @@
 }
 
 .tombolbuka {
-    font-family : standart;
+    font-family: standart;
 }
 
 .boxnama {
-    width: 200px; 
-    max-width: 100%; 
-    height: auto; 
-    border: 1px solid; 
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid;
     border-color: var(--primary-color);
-    border-radius: 25px; 
-    margin-left: auto; 
-    margin-right: auto; 
-    padding: 15px; 
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
 }
 
 .boxnama h6 {
@@ -73,7 +75,7 @@
 }
 
 .boxnama h3 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
 }
 
@@ -84,7 +86,7 @@
 
 .tombolbuka:hover {
     color: var(--white-color);
-    background-color : var(--secondary-color);
+    background-color: var(--secondary-color);
 }
 
 
@@ -103,6 +105,7 @@
         display: block;
         /* Tampilkan cover-kanan */
     }
+
     .navbar {
         display: none;
     }
@@ -150,11 +153,13 @@
 }
 
 .days {
-    background-color:rgba(151, 91, 2, 0.801);;
+    background-color: rgba(151, 91, 2, 0.801);
+    ;
 }
 
 .hours {
-    background-color:rgba(151, 91, 2, 0.801);;
+    background-color: rgba(151, 91, 2, 0.801);
+    ;
 }
 
 .minutes {
@@ -194,8 +199,10 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 0px -1px 5px var(--dark-color);
-    border-top-left-radius: 20px; /* Mengatur sudut kiri atas menjadi bulat */
-    border-top-right-radius: 20px; /* Mengatur sudut kanan atas menjadi bulat */
+    border-top-left-radius: 20px;
+    /* Mengatur sudut kiri atas menjadi bulat */
+    border-top-right-radius: 20px;
+    /* Mengatur sudut kanan atas menjadi bulat */
     z-index: 0001;
     align-items: center;
 }
@@ -206,9 +213,11 @@
     font-size: 24px;
     text-decoration: none;
     align-items: center;
-    transition: color 0.3s ease; /* Durasi 0.3s dan fungsi transisi ease */
+    transition: color 0.3s ease;
+    /* Durasi 0.3s dan fungsi transisi ease */
     padding-bottom: 10px;
 }
+
 .nav-item span {
     font-size: 12px;
     display: block;
@@ -226,7 +235,8 @@
 
 .nav-item:hover,
 .nav-item:active {
-    color: var(--grey-color); /* Warna ikon saat hover atau aktif */
+    color: var(--grey-color);
+    /* Warna ikon saat hover atau aktif */
 }
 
 /* end navbar */
@@ -237,24 +247,49 @@
     background-size: cover;
 }
 
-.hal2 {
+.hal1 {
     background-image: url(./img/bg-body.jpg);
-    background-position:center;
+    background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
     min-height: 30vh;
     display: flex;
-    
 }
 
-.hal2_content p{
-font-family: standart; 
-color: var(--primary-color);
+
+.hal2 {
+    background-image: url(./img/1.jpg);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: rgba(252, 234, 216, 0.747);
 }
+
+
+.hal2_content p {
+    font-family: standart;
+    color: var(--primary-color);
+}
+
 .hal2_content h1 {
-font-family: latin;
-color: var(--primary-color);
-font-size: xx-large;
+    font-family: latin;
+    color: var(--primary-color);
+    font-size: xx-large;
+}
+
+.hal2_surat p {
+    font-family: standart;
+    color: var(--primary-color);
+}
+
+.hal2_surat h1 {
+    font-family: latin;
+    color: var(--primary-color);
+    font-size: xx-large;
 }
 
 /* END HAL 2 */
@@ -262,46 +297,47 @@ font-size: xx-large;
 /* HAL 3 */
 
 .hal3 {
-background: url('./img/slide-2\ rev.jpg');
-background-position:center;
-background-repeat: no-repeat;
-background-size:cover;
-max-width: 100%;
-margin: auto;
+    background: url('./img/slide-2\ rev.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    margin: auto;
 }
 
 .rounded-image {
-border-radius: 100%;
-width: 300px; 
-height: auto; 
-max-width: 100%;
+    border-radius: 100%;
+    width: 300px;
+    height: auto;
+    max-width: 100%;
 }
+
 .mempelai {
-text-decoration:none; 
-color: var(--white-color); 
-font-size: 15px;
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 15px;
 }
 
 .mempelai h3 {
-font-family: standart;
-font-size: 15px;
-color: white;
+    font-family: standart;
+    font-size: 15px;
+    color: white;
 }
 
 .mempelai h4 {
-color: var(--primary-color);
-font-size: 80px; 
-font-family: 'latin';
+    color: var(--primary-color);
+    font-size: 80px;
+    font-family: 'latin';
 }
 
 .mempelai h2 {
-color: var(--primary-color);
-font-size: 30px; 
-font-family: 'Great Vibes', cursive;
+    color: var(--primary-color);
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
 }
 
 .nama_mempelai {
-color: var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 /* END HAL 3 */
@@ -309,50 +345,50 @@ color: var(--secondary-color);
 /* HAL 4 */
 
 .hal4 {
-background-image: url(./img/box-waktu.jpg);
-background-position:center;
-background-size: cover;
+    background-image: url(./img/box-waktu.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .boxhal4 {
-background-color: var(--white-color);
-border-radius: 30px;
-background: url(./img/bg1.jpg) 600px;
+    background-color: var(--white-color);
+    border-radius: 30px;
+    background: url(./img/bg1.jpg) 600px;
 }
 
 .boxhal4 h1 {
-font-family: latin;
-font-size: 50px;
-color: var(--dark-color);
+    font-family: latin;
+    font-size: 50px;
+    color: var(--dark-color);
 }
 
 .boxwaktu {
-background-color: none;
-border: var(--primary-color) solid 3px;
-border-radius: 30px;
-padding: 20px;
+    background-color: none;
+    border: var(--primary-color) solid 3px;
+    border-radius: 30px;
+    padding: 20px;
 }
 
 .date {
-margin-left: 50px; 
-margin-right: 50px; 
-margin-top: 15px; 
-color: var(--dark-color);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+    color: var(--dark-color);
 }
 
 .date h2 {
-font-size:large;
+    font-size: large;
 }
 
 .date hr {
-border: 10px solid;
-border-color: var(--dark-color);
+    border: 10px solid;
+    border-color: var(--dark-color);
 }
 
 .lokasi {
-font-family: latin;
-font-size: 35px;
-color: var(--grey-color);
+    font-family: latin;
+    font-size: 35px;
+    color: var(--grey-color);
 }
 
 /* END HAL 4 */
@@ -360,13 +396,13 @@ color: var(--grey-color);
 /* HAL 5 */
 
 .hal5 {
-background: url(./img/slide-2\ rev.jpg);
-width: 100%;
-height: auto;
-max-width: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    background: url(./img/slide-2\ rev.jpg);
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* END HAL 5 */
@@ -374,46 +410,48 @@ background-size: cover;
 /* HAL 6 */
 
 .hal6 {
-background: url('./img/bg-body.jpg');
-background-position:center;
-background-repeat: no-repeat;
-background-size:cover;
-max-width: 100%;
-margin: auto;
+    background: url('./img/bg-body.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    margin: auto;
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
- filter: invert(100%);
+    filter: invert(100%);
 }
 
 .carousel-control-prev,
 .carousel-control-next {
     color: #000;
 }
+
 .carousel-indicators button {
-color: #000;
+    color: #000;
 }
 
 .icontext {
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* END HAL 6 */
 
 .hal7 {
-background: url('./img/bg-body.jpg');
-background-position:center;
-background-repeat: no-repeat;
-background-size:cover;
-max-width: 100%;
-margin: auto;
+    background: url('./img/bg-body.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    margin: auto;
 }
 
 .logobank {
-width: 50%;
-height: auto;
-max-width: 100%;
+    width: 50%;
+    height: auto;
+    max-width: 100%;
 }
 
 /* END HAL 7 */
@@ -421,27 +459,28 @@ max-width: 100%;
 /* HAL 8 */
 
 .rsvp {
-background:var(--white-color);
-padding-top: 40px;
-padding-bottom: 40px;
-border-radius: 30px;
+    background: var(--white-color);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 30px;
 }
+
 .rsvp h1 {
-font-family: latin;
-font-size: 60px;
-color: var(--grey-color);
+    font-family: latin;
+    font-size: 60px;
+    color: var(--grey-color);
 }
 
 .boxrsvp {
-background-image: url(./img/1.jpg);
-padding-top: 40px;
-padding-bottom: 40px;
-margin: auto;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-blend-mode: soft-light;
-background-color: rgba(252, 234, 216, 0.623);
+    background-image: url(./img/1.jpg);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: rgba(252, 234, 216, 0.623);
 }
 
 /* END HAL 8 */
@@ -449,15 +488,15 @@ background-color: rgba(252, 234, 216, 0.623);
 /* HAL 9 */
 
 .hal9 {
-background-image: url(./img/slide-1.jpg);
-background-color: var(--white-color);
-background-position:center;
-background-repeat: no-repeat;
-background-size: cover;
-background-blend-mode: multiply;
-display: flex;
-min-height: 90vh;
-margin: auto;
+    background-image: url(./img/slide-1.jpg);
+    background-color: var(--white-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    min-height: 90vh;
+    margin: auto;
 }
 
 /* END HAL 9 */
@@ -466,20 +505,24 @@ margin: auto;
 /* MUSIC */
 
 .msc {
-width: 80px;
-  position:fixed; /*trik posisi fix*/
-  z-index:1; /*supaya header selalu muncul di atas seluruh elemen*/
-  margin-top: 200px;
-  float: right;
-  border-radius: 100px;
+    width: 80px;
+    position: fixed;
+    /*trik posisi fix*/
+    z-index: 1;
+    /*supaya header selalu muncul di atas seluruh elemen*/
+    margin-top: 200px;
+    float: right;
+    border-radius: 100px;
 }
 
 .msc button {
-color: var(--grey-color);
+    color: var(--grey-color);
 }
+
 .tombolmusic {
-color: var(--dark-color);
+    color: var(--dark-color);
 }
+
 .tombolbuka {
     color: var(--white-color);
     background-color: var(--primary-color);
@@ -487,5 +530,5 @@ color: var(--dark-color);
 
 .tombolbuka:hover {
     color: var(--white-color);
-    background-color : var(--secondary-color);
+    background-color: var(--secondary-color);
 }
